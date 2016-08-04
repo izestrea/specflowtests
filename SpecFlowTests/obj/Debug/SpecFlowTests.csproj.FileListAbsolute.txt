@@ -1,0 +1,8 @@
+D:\workspace\SpecFlowTests\SpecFlowTests\bin\Debug\SpecFlowTests.dll.config
+D:\workspace\SpecFlowTests\SpecFlowTests\bin\Debug\SpecFlowTests.dll
+D:\workspace\SpecFlowTests\SpecFlowTests\bin\Debug\SpecFlowTests.pdb
+D:\workspace\SpecFlowTests\SpecFlowTests\bin\Debug\nunit.framework.dll
+D:\workspace\SpecFlowTests\SpecFlowTests\bin\Debug\TechTalk.SpecFlow.dll
+D:\workspace\SpecFlowTests\SpecFlowTests\bin\Debug\nunit.framework.xml
+D:\workspace\SpecFlowTests\SpecFlowTests\obj\Debug\SpecFlowTests.dll
+D:\workspace\SpecFlowTests\SpecFlowTests\obj\Debug\SpecFlowTests.pdb
