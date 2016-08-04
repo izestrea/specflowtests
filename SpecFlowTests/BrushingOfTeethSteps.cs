@@ -7,7 +7,7 @@ namespace SpecFlowTests
     public class BrushingOfTeethSteps
     {
         [Given]
-        public void Given_there_is_toothpaste_on_the_brush()
+        public void Given_there_is_GRAMS_gram_of_BRAND_toothpaste_on_the_brush(int grams, string brand)
         {
             ScenarioContext.Current.Pending();
         }

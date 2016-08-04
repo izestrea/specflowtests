@@ -71,7 +71,7 @@ namespace SpecFlowTests
 #line 3
 this.ScenarioSetup(scenarioInfo);
 #line 4
- testRunner.Given("there is toothpaste on the brush", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("there is 1 gram of Brand X toothpaste on the brush", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 5
  testRunner.And("the month is open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 6

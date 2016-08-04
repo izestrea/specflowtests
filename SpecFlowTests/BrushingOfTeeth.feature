@@ -1,7 +1,7 @@
 ﻿Feature: Brushing Of Teeth
  
 Scenario: Successful brushing
-	Given there is toothpaste on the brush
+	Given there is 1 gram of Brand X toothpaste on the brush
 	And the month is open
 	When the back teeth are brushed
 	And the from teeth are brushed
