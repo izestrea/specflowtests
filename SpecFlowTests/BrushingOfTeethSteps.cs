@@ -6,44 +6,44 @@ namespace SpecFlowTests
     [Binding]
     public class BrushingOfTeethSteps
     {
-        [Given(@"there is toothpaste on the brush")]
-        public void GivenHereIsToothpasteOnTheBrush()
+        [Given]
+        public void Given_there_is_toothpaste_on_the_brush()
         {
             ScenarioContext.Current.Pending();
         }
         
-        [Given(@"the month is open")]
-        public void GivenTheMonthIsOpen()
+        [Given]
+        public void Given_the_month_is_open()
         {
             ScenarioContext.Current.Pending();
         }
         
-        [When(@"the back teeth are brushed")]
-        public void WhenTheBackTeethAreBrushed()
+        [When]
+        public void When_the_back_teeth_are_brushed()
         {
             ScenarioContext.Current.Pending();
         }
         
-        [When(@"the fron teeth are brushed")]
-        public void WhenTheFronTeethAreBrushed()
+        [When]
+        public void When_the_fron_teeth_are_brushed()
         {
             ScenarioContext.Current.Pending();
         }
         
-        [Then(@"the teeth look clean")]
-        public void ThenTheTeethLookClean()
+        [Then]
+        public void Then_the_teeth_look_clean()
         {
             ScenarioContext.Current.Pending();
         }
         
-        [Then(@"the month feels fresh")]
-        public void ThenTheMonthFeelsFresh()
+        [Then]
+        public void Then_the_month_feels_fresh()
         {
             ScenarioContext.Current.Pending();
         }
         
-        [Then(@"the braces aren't damaged")]
-        public void ThenTheBracesArenTDamaged()
+        [Then]
+        public void Then_the_braces_aren_t_damaged()
         {
             ScenarioContext.Current.Pending();
         }
