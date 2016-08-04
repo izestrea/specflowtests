@@ -77,7 +77,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 6
  testRunner.When("the back teeth are brushed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 7
- testRunner.And("the fron teeth are brushed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("the from teeth are brushed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 8
  testRunner.Then("the teeth look clean", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 9

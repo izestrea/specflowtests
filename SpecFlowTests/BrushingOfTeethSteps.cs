@@ -25,7 +25,7 @@ namespace SpecFlowTests
         }
         
         [When]
-        public void When_the_fron_teeth_are_brushed()
+        public void When_the_from_teeth_are_brushed()
         {
             ScenarioContext.Current.Pending();
         }
