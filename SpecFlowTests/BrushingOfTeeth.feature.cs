@@ -70,19 +70,30 @@ namespace SpecFlowTests
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Successful brushing", ((string[])(null)));
 #line 3
 this.ScenarioSetup(scenarioInfo);
+#line hidden
+            TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                        "ToolName",
+                        "ToolQuality"});
+            table1.AddRow(new string[] {
+                        "paste",
+                        "medium"});
+            table1.AddRow(new string[] {
+                        "brush",
+                        "high"});
+            table1.AddRow(new string[] {
+                        "water",
+                        "low"});
 #line 4
- testRunner.Given("there is 1 gram of Brand X toothpaste on the brush", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 5
- testRunner.And("the month is open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 6
- testRunner.When("the back teeth are brushed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 7
- testRunner.And("the from teeth are brushed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 8
- testRunner.Then("the teeth look clean", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Given("I have the following tools:", ((string)(null)), table1, "Given ");
 #line 9
- testRunner.And("the month feels fresh", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("the month is open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 10
+ testRunner.When("the back teeth are brushed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 11
+ testRunner.Then("the teeth look clean", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 12
+ testRunner.And("the month feels fresh", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 13
  testRunner.But("the braces aren\'t damaged", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "But ");
 #line hidden
             this.ScenarioCleanup();

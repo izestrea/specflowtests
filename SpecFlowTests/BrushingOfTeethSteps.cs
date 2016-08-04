@@ -7,8 +7,16 @@ namespace SpecFlowTests
     public class BrushingOfTeethSteps
     {
         [Given]
-        public void Given_there_is_GRAMS_gram_of_BRAND_toothpaste_on_the_brush(int grams, string brand)
+        public void Given_I_have_the_following_tools(Table table)
         {
+            var firstToolName = table.Rows[0][0];
+            var firstToolQuality = table.Rows[0][1];
+
+            var secondToolName = table.Rows[1]["ToolName"];
+            var secondToolQuality = table.Rows[1]["ToolQuality"];
+
+            var isToolColorColumnSpecified = table.ContainsColumn("Color");
+
             ScenarioContext.Current.Pending();
         }
         
@@ -20,12 +28,6 @@ namespace SpecFlowTests
         
         [When]
         public void When_the_back_teeth_are_brushed()
-        {
-            ScenarioContext.Current.Pending();
-        }
-        
-        [When]
-        public void When_the_from_teeth_are_brushed()
         {
             ScenarioContext.Current.Pending();
         }
