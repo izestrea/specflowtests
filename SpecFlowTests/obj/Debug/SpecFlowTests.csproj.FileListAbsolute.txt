@@ -6,4 +6,3 @@ D:\workspace\SpecFlowTests\SpecFlowTests\bin\Debug\TechTalk.SpecFlow.dll
 D:\workspace\SpecFlowTests\SpecFlowTests\bin\Debug\nunit.framework.xml
 D:\workspace\SpecFlowTests\SpecFlowTests\obj\Debug\SpecFlowTests.dll
 D:\workspace\SpecFlowTests\SpecFlowTests\obj\Debug\SpecFlowTests.pdb
-D:\workspace\SpecFlowTests\SpecFlowTests\obj\Debug\SpecFlowTests.csprojResolveAssemblyReference.cache
