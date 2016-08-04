@@ -7,15 +7,15 @@ namespace SpecFlowTests
     public class TeethWhitenessSteps
     {
         [Given(@"I'm using ""(.*)"" brand toothpaste")]
-        public void GivenIMUsingBrandToothpaste(string p0)
+        public void GivenIMUsingBrandToothpaste(string brand)
         {
-            ScenarioContext.Current.Pending();
+            ScenarioContext.Current.Add("brand name", brand);
         }
         
         [When(@"I brush for (.*) minutes")]
         public void WhenIBrushForMinutes(string p0)
         {
-            ScenarioContext.Current.Pending();
+            var brandName = ScenarioContext.Current["brand name"];
         }
         
         [Then(@"the teeth look (.*) white")]
